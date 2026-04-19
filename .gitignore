@@ -1,0 +1,26 @@
+# Arduino build artifacts
+build/
+*.elf
+*.hex
+*.bin
+*.map
+
+# Arduino IDE backup files
+*.ino.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets / credentials (never commit these)
+secrets.h
+config_private.h
+
+# VS Code
+.vscode/
+
+# Python cache (if using any tooling)
+__pycache__/
+*.pyc
